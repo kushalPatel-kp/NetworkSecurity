@@ -1,3 +1,6 @@
 python-dotenv
 pandas
 numpy
+pymongo==4.13.0
+
+-e .
