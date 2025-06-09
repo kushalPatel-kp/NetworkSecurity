@@ -24,7 +24,6 @@ class NetworkDataExtract():
         
     def cv_to_json_converter(self, file_path):
         try:
-            
             data = pd.read_csv(file_path)
             data.reset_index(drop=True, inplace=True)
             records=data.to_dict(orient='records')
@@ -47,7 +46,7 @@ class NetworkDataExtract():
             return(len(self.records))
         except Exception as e:
             raise CutsomException(e,sys)
-        
+
 if __name__ == "__main__":
     FILE_PATH=r"D:\ML_Proj\Network_Data\phisingData.csv"
     database="KushalAI"
