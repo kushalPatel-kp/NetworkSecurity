@@ -10,6 +10,8 @@ newtworksecurity/components/__init__.py
 newtworksecurity/constant/__init__.py
 newtworksecurity/entity/__init__.py
 newtworksecurity/exception/__init__.py
-newtworksecurity/logger/__init__.py
+newtworksecurity/exception/exception.py
+newtworksecurity/logging/__init__.py
+newtworksecurity/logging/logger.py
 newtworksecurity/pipeline/__init__.py
 newtworksecurity/utils/__init__.py
